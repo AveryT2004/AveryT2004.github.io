@@ -1,0 +1,108 @@
+#forest {
+    width: 100%;
+    height: auto;
+}
+
+header div {
+    height: 350px;
+    max-width: 55%;
+    margin: auto;
+    overflow: hidden;
+}
+h1 {
+    position: absolute;
+    right: 28%;
+    top: 13%;
+    color: white;
+    font-size: 78px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-stroke: black 3px;
+}
+
+nav {font-size: 14pt;
+    }   
+    /*Move the nav text so it is sitting under the photo*/
+    /*Solve loading errors (email Jess)*/
+    /*Ask Jess about squish problem*/
+
+#home {
+    display: inline-block;
+    position: relative;
+    left: 12%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-right: 10%;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: medium;
+}
+
+#about {
+    display: inline-block;
+    position: relative;
+    left: 12%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: medium;
+}
+
+#contact {
+    display: inline-block;
+    position: relative;
+    left: 12%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+body {background-color: lightsalmon;
+    margin: auto;}
+
+#lake {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 5px;
+}
+#canada {
+    text-align: justify;
+    font-size: 11pt;
+}
+
+article {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+#facts {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+#learn {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+#questions {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+            border-style: solid;
+            border-width: thin;
+            border-color: black;
+            padding: 1%;}
+
+button {background-color: whitesmoke;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+            
+footer {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        text-align: right;}
+
+#everything {
+            display: inline-block;
+            margin-left: 340px;
+            margin-right: 340px;
+            margin-top: 0%;
+            background-color: palegoldenrod;
+            padding: 1%;
+}
+
