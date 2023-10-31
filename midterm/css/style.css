@@ -8,56 +8,65 @@ header div {
     max-width: 55%;
     margin: auto;
     overflow: hidden;
+    
 }
 h1 {
     position: absolute;
-    right: 28%;
+    width: 100%;
     top: 13%;
     color: white;
-    font-size: 78px;
+    font-size: 500%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     -webkit-text-stroke: black 3px;
+    text-align: center;
 }
 
 nav {font-size: 14pt;
-    }   
-    /*Move the nav text so it is sitting under the photo*/
-    /*Solve loading errors (email Jess)*/
-    /*Ask Jess about squish problem*/
+    position: relative;
+    top: 50%;
+    background-color: palegoldenrod;
+    margin-right: 22.5%;
+    margin-left: 22.5%;
+    }
 
 #home {
     display: inline-block;
     position: relative;
-    left: 12%;
+    left: 23%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-right: 10%;
+    padding-right: 5%;
     border-right-color: black;
     border-right-style: solid;
     border-right-width: medium;
+    margin: auto;
+    background-color: palegoldenrod;
 }
 
 #about {
     display: inline-block;
     position: relative;
-    left: 12%;
+    left: 23%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     border-right-color: black;
     border-right-style: solid;
     border-right-width: medium;
+    background-color: palegoldenrod;
 }
 
 #contact {
     display: inline-block;
     position: relative;
-    left: 12%;
+    left: 23%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 10%;
-    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    background-color: palegoldenrod;
 }
+
 body {background-color: lightsalmon;
-    margin: auto;}
+}
 
 #lake {
     width: 200px;
@@ -99,10 +108,8 @@ footer {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lu
 
 #everything {
             display: inline-block;
-            margin-left: 340px;
-            margin-right: 340px;
+            margin-left: 22.5%;
+            margin-right: 22.5%;
             margin-top: 0%;
             background-color: palegoldenrod;
-            padding: 1%;
 }
-
