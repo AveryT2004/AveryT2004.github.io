@@ -10,21 +10,22 @@
 <body>
     <!-- Header and Navigation -->
     <header>
+        <div id="stars">
         <img src="img/images/logo.png"
             alt="Star Logo" id="logo">
+        </div>    
         <nav>
-        <h3 id="home">Home</h3>
-        <h3 id="about">About Us</h3>
-        <h3 id="services">Services</h3>
-        <h3 id="team">Team</h3>
-        <h3 id="contact">Contact</h3>
+        <a href="/home/" id="home">Home</a>
+        <a href="/about/" id="about">About Us</a>
+        <a href="/services/" id="services">Services</a>
+        <a href="/team/" id="team">Team</a>
+        <a href="contact" id="contact">Contact</a>
         </nav>
     </header>
 <!-- First section, the search bar -->
 <div id="search-bar"> 
 <form method="post" id="search">
-    <label for="Search">Search</label>
-    <input id="Search">
+    <input type="post" id="search" placeholder="Search">
   </form>
   <span class="material-symbols-outlined">
     search
@@ -33,37 +34,46 @@
 
 <!-- 2nd section, main banner and introduction page -->
 <section id="mainbanner">
+    <div id="textandimage">
     <img src="img/images/main-banner.jpg"
         alt="Main Banner" id="banner">
-    <h1 id="welcome">Welcome to Three Star Media</h1>
+    <h1 id="welcome"><strong>Welcome to Three<br>Star Media</strong></h1>
     <p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare volutpat ipsum, sit amet dapibus neque sodales ut. Etiam facilisis, enim vel convallis pretium, eros tortor consequat nisl, sed tincidunt metus arcu a libero. Sed convallis blandit dignissim. Aenean ultrices feugiat libero, in pellentesque ex dapibus nec. Sed massa sem, rutrum quis mi eget, tincidunt consectetur felis.</p>
+    
+    <div id="button">
     <button type="button" id="connect">Connect with us</button>
     <span class="material-symbols-outlined">
         play_arrow
         </span>
+    </div> 
+    </div> 
 </section>
 
 <!-- Section 3, for About Us -->
 <section id="about-us">
+    <img src="img/images/about-us.jpg" alt="tennis table" id="aboot">
     <h1 id="about-us-title">About Us</h1>
     <p id="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare volutpat ipsum, sit amet dapibus neque sodales ut. Etiam facilisis, enim vel convallis pretium, eros tortor consequat nisl, sed tincidunt metus arcu a libero. Sed convallis blandit dignissim. Aenean ultrices feugiat libero, in pellentesque ex dapibus nec.</p>
+    <br>
     <p id="p3">
      Sed massa sem, rutrum quis mi eget, tincidunt consectetur felis. Cras sodales eget dui a ultrices. Duis pretium, ex id commodo tempor, ante metus placerat ante, nec feugiat erat est a nunc. Phasellus vehicula dapibus nulla, sed blandit massa iaculis at.   
     </p>
 </section>
 
 <!-- Section 4, for Our Services -->
-<section id="our-serivices">
+<section id="our-services">
     <h1 id="services-title">Our Services</h1>
     <img src="img/images/digital.jpg"
         alt="A person on their phone"
         id="digital">
+    <div id="transform">
     <h2 id="s4-subheading">Digital Transformation</h2>
     <p id="p4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare volutpat ipsum, sit amet dapibus neque sodales ut. Etiam facilisis, enim vel convallis pretium, eros tortor consequat nisl, sed tincidunt metus arcu a libero.</p>
     <button type="button" id="DG">Digital Plans</button>
     <span class="material-symbols-outlined">
         play_arrow
         </span>
+    </div>
 </section>
 
 <!-- The break occurs when the content becomes smushed together, to ensure visibility. -->
@@ -75,12 +85,14 @@
     <img src="img/images/marketing.jpg"
         alt="A laptop"
         id="marketing-laptop">
+    <div id="transform2">
     <h2 id="s5-subheading">Marketing</h2>
     <p id="p5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare volutpat ipsum, sit amet dapibus neque sodales ut. Etiam facilisis, enim vel convallis pretium, eros tortor consequat nisl, sed tincidunt metus arcu a libero.</p>
     <button type="button" id="market-plans">Marketing Plans</button>
     <span class="material-symbols-outlined">
         play_arrow
         </span>
+    </div>
 </section>
 
         <br>
